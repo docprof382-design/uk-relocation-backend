@@ -62,6 +62,15 @@ class HomeStaticData {
       flagPath: 'assets/images/canada_card.jpg',
       programId: 'canada_program',
     ),
+
+    ProgramCardModel(
+      title: ' استبيان التسجيل في المنح الدراسيه',
+      subtitle: 'ابدأ رحلتك لعالم افضل',
+      buttonText: 'تسجيل البيانات',
+      bgImagePath: 'assets/images/canada_card.jpg',
+      flagPath: 'assets/images/canada_card.jpg',
+      programId: 'scholarships',
+    ),
   ];
 
   static final List<ServiceModel> services = [

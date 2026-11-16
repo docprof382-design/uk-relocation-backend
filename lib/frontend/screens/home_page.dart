@@ -197,6 +197,14 @@ class _HomePageState extends State<HomePage> {
                             ),
                           );
                         }
+                          if (program.programId == 'scholarships') {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => FormFlowScreen(), // تم إزالة const لتجنب الخطأ
+                            ),
+                          );
+                        }
                       },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.yellow,
